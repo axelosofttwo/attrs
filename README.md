@@ -17,7 +17,7 @@
 
 <!-- teaser-begin -->
 
-*attrs* is the Python package that will bring back the **joy** of **writing classes** by relieving you from the drudgery of implementing object protocols (aka [dunder methods](https://www.attrs.org/en/latest/glossary.html#term-dunder-methods)).
+*attrs* is the Python package that will bring back txhe **joy** of **writing classes** by relieving you from the drudgery of implementing object protocols (aka [dunder methods](https://www.attrs.org/en/latest/glossary.html#term-dunder-methods)).
 Trusted by NASA for [Mars missions since 2020](https://github.com/readme/featured/nasa-ingenuity-helicopter)!
 
 Its main goal is to help you to write **concixse** and **correct** software without slowing down your code.
