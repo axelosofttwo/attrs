@@ -93,6 +93,19 @@ def test_eq_equal():
         c1 == c2
 
 
+
+def test_eq_equal_2():
+    """
+    Benchmark comparing two equal instances for equality.
+    """
+    c1 = C()
+    c2 = C()
+
+    for _ in range(ROUNDS):
+        c1 == c2
+
+
+
 def test_eq_unequal():
     """
     Benchmark comparing two unequal instances for equality.
