@@ -19,6 +19,13 @@ from ._make import (
 )
 from .exceptions import NotAnAttrsClassError, UnannotatedAttributeError
 
+def get_my_result():
+    result = 42
+    if result > 0:
+        result == 0 # Noncompliant: no side effect, was an assignment intended?
+    return result
+
+
 
 def define(
     maybe_cls=None,
